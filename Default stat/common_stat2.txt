@@ -1,0 +1,10 @@
+zbar
+Total count    584
+Read count     134    22.9%
+Unead count    450    77.1%
+
+zxing
+Total count    584
+Read count      58     9.9%
+Unead count    526    90.1%
+

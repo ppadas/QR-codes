@@ -1,0 +1,35 @@
+opencv_zxing_150
+Total count    104
+Read count      73    70.2%
+Unead count     31    29.8%
+
+opencv_zxing_full
+Total count    104
+Read count      62    59.6%
+Unead count     42    40.4%
+
+zbar_libdmtx_150
+Total count    104
+Read count      73    70.2%
+Unead count     31    29.8%
+
+zbar_libdmtx_full
+Total count    104
+Read count      60    57.7%
+Unead count     44    42.3%
+
+zxing_zxing_150
+Total count    104
+Read count      70    67.3%
+Unead count     34    32.7%
+
+zxing_zxing_200
+Total count    104
+Read count      63    60.6%
+Unead count     41    39.4%
+
+zxing_zxing_full
+Total count    104
+Read count      44    42.3%
+Unead count     60    57.7%
+
