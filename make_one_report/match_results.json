@@ -1,0 +1,2974 @@
+{
+  "types_list": [
+    {
+      "id": 0,
+      "name": "QR-code"
+    },
+    {
+      "id": 1,
+      "name": "Data matrix"
+    }
+  ],
+  "objects": [
+    {
+      "image": "q045.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3301,
+            0.4159,
+            0.3106,
+            0.2268
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3301,
+            0.4159,
+            0.3106,
+            0.2268
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q055.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2535,
+            0.4775,
+            0.2758,
+            0.1839
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2535,
+            0.4775,
+            0.2758,
+            0.1839
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q031.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.5042,
+            0.5987,
+            0.1323,
+            0.0982
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://msi.gm/rewards?r=qr"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.5042,
+            0.5987,
+            0.1323,
+            0.0982
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q028.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1295,
+            0.5559,
+            0.1546,
+            0.1129
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://www.arctic.ac/p12pwm"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1295,
+            0.5559,
+            0.1546,
+            0.1129
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q024.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.305,
+            0.2382,
+            0.1978,
+            0.1442
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://www.xgimi.com/download?item=gimizhushou"
+        },
+        {
+          "type": 0,
+          "bbox": [
+            0.3412,
+            0.7367,
+            0.1797,
+            0.1327
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.305,
+            0.2382,
+            0.1978,
+            0.1442
+          ],
+          "bound": []
+        },
+        {
+          "type": 0,
+          "bbox": [
+            0.3412,
+            0.7367,
+            0.1797,
+            0.1327
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q050.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2529,
+            0.2702,
+            0.3542,
+            0.468
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2529,
+            0.2702,
+            0.3542,
+            0.468
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q015.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4263,
+            0.3329,
+            0.2278,
+            0.2939
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://www.rkevroprestige.ru/"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4263,
+            0.3329,
+            0.2278,
+            0.2939
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q008.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.5256,
+            0.4735,
+            0.0972,
+            0.1351
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "https://www.pudov.ru/q/PFSP29746"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.5256,
+            0.4735,
+            0.0972,
+            0.1351
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q041.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.383,
+            0.396,
+            0.3036,
+            0.2424
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.383,
+            0.396,
+            0.3036,
+            0.2424
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q016.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3189,
+            0.3427,
+            0.3454,
+            0.2685
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "https://prostokvashino.ru/zozhivem-s-kefirom/"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3189,
+            0.3427,
+            0.3454,
+            0.2685
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q023.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3468,
+            0.4357,
+            0.2326,
+            0.1735
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://weixin.qq.com/q/026wsN4tOmb7T10000M07V"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3468,
+            0.4357,
+            0.2326,
+            0.1735
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q051.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1532,
+            0.186,
+            0.6281,
+            0.3751
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1532,
+            0.186,
+            0.6281,
+            0.3751
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q009.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2841,
+            0.4807,
+            0.1978,
+            0.1578
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "vk.com/step_slavyanka"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2841,
+            0.4807,
+            0.1978,
+            0.1578
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q030.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4666,
+            0.349,
+            0.149,
+            0.1108
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "602-V375-490SB2211002140|GeForce GTX 1660 SUPER VENTUS XS OC|824142200575|4719072681852||8A4||"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4666,
+            0.349,
+            0.149,
+            0.1108
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q025.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2939,
+            0.3281,
+            0.344,
+            0.2602
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "02-17-JZH0269   "
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2939,
+            0.3281,
+            0.344,
+            0.2602
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q029.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.5432,
+            0.7241,
+            0.2061,
+            0.1515
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://www.msi.com/product/vga/"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.5432,
+            0.7241,
+            0.2061,
+            0.1515
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q027.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3134,
+            0.4911,
+            0.2604,
+            0.1975
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3134,
+            0.4911,
+            0.2604,
+            0.1975
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q040.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3733,
+            0.4441,
+            0.2688,
+            0.1933
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3733,
+            0.4441,
+            0.2688,
+            0.1933
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q054.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3203,
+            0.3992,
+            0.2047,
+            0.1703
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://mymatti.ru"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3203,
+            0.3992,
+            0.2047,
+            0.1703
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q044.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3621,
+            0.4242,
+            0.3092,
+            0.2257
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3621,
+            0.4242,
+            0.3092,
+            0.2257
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q005.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4232,
+            0.5042,
+            0.1609,
+            0.2117
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4232,
+            0.5042,
+            0.1609,
+            0.2117
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q002.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2994,
+            0.396,
+            0.2033,
+            0.1745
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2994,
+            0.396,
+            0.2033,
+            0.1745
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q053.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.227,
+            0.4472,
+            0.3955,
+            0.2508
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.227,
+            0.4472,
+            0.3955,
+            0.2508
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q046.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4025,
+            0.4483,
+            0.2298,
+            0.1682
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4025,
+            0.4483,
+            0.2298,
+            0.1682
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q043.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3426,
+            0.4169,
+            0.3733,
+            0.2476
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3426,
+            0.4169,
+            0.3733,
+            0.2476
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q013.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2298,
+            0.4002,
+            0.3134,
+            0.209
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2298,
+            0.4002,
+            0.3134,
+            0.209
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q019.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1086,
+            0.6019,
+            0.1323,
+            0.1034
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "https://clck.ru/YtwJR"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1086,
+            0.6019,
+            0.1323,
+            0.1034
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q020.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1741,
+            0.0825,
+            0.1643,
+            0.1233
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1741,
+            0.0825,
+            0.1643,
+            0.1233
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q039.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3705,
+            0.4326,
+            0.2939,
+            0.2236
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3705,
+            0.4326,
+            0.2939,
+            0.2236
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q001.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4274,
+            0.3705,
+            0.1557,
+            0.2089
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "HTTPS://LR.OAQR.IO/01/03337875722827"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4274,
+            0.3705,
+            0.1557,
+            0.2089
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q033.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1894,
+            0.5737,
+            0.163,
+            0.1212
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "https://greenfieldtea.co.uk/ru/?utm_source=package&utm_medium=package&utm_campaign=new_qr"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1894,
+            0.5737,
+            0.163,
+            0.1212
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q037.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3259,
+            0.3281,
+            0.3677,
+            0.2571
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "t=20230228T121200&s=675.00&fn=9960440302085154&i=83718&fp=1067866142&n=1"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3259,
+            0.3281,
+            0.3677,
+            0.2571
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q004.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3051,
+            0.4568,
+            0.1285,
+            0.1811
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "https://clck.ru/Xy9S3"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3051,
+            0.4568,
+            0.1285,
+            0.1811
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q048.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2618,
+            0.3908,
+            0.4373,
+            0.3135
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2618,
+            0.3908,
+            0.4373,
+            0.3135
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q042.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4081,
+            0.4065,
+            0.3217,
+            0.3083
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4081,
+            0.4065,
+            0.3217,
+            0.3083
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q022.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2201,
+            0.4807,
+            0.1574,
+            0.1233
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://weixin.qq.com/q/02P4pt4LOmb7T10000g070"
+        },
+        {
+          "type": 0,
+          "bbox": [
+            0.7688,
+            0.4378,
+            0.1365,
+            0.1034
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://el.bbqk.com/1a8cf/0.html"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2201,
+            0.4807,
+            0.1574,
+            0.1233
+          ],
+          "bound": []
+        },
+        {
+          "type": 0,
+          "bbox": [
+            0.7688,
+            0.4378,
+            0.1365,
+            0.1034
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q011.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3579,
+            0.3751,
+            0.2813,
+            0.2132
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3579,
+            0.3751,
+            0.2813,
+            0.2132
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q035.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3691,
+            0.5172,
+            0.2396,
+            0.1797
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3691,
+            0.5172,
+            0.2396,
+            0.1797
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q018.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4095,
+            0.4765,
+            0.1267,
+            0.0972
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "https://clck.ru/YsqwR"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4095,
+            0.4765,
+            0.1267,
+            0.0972
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q036.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2117,
+            0.5183,
+            0.2326,
+            0.185
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "camelion.ru/about/promo"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2117,
+            0.5183,
+            0.2326,
+            0.185
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q007.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4596,
+            0.4817,
+            0.2354,
+            0.1745
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4596,
+            0.4817,
+            0.2354,
+            0.1745
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q038.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2507,
+            0.418,
+            0.337,
+            0.2539
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "HTTPS://CLCK.RU/vtUkd"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2507,
+            0.418,
+            0.337,
+            0.2539
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q032.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2326,
+            0.395,
+            0.2368,
+            0.1745
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "https://www.msi.com/Landing/dragon-center-download"
+        },
+        {
+          "type": 0,
+          "bbox": [
+            0.6031,
+            0.395,
+            0.2284,
+            0.1682
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "https://www.msi.com/Promotions/redirect/current_list/all"
+        },
+        {
+          "type": 0,
+          "bbox": [
+            0.2382,
+            0.6311,
+            0.2354,
+            0.1703
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "https://download.msi.com/archive/mnu_exe/vga/Installation-Guide-NV.pdf"
+        },
+        {
+          "type": 0,
+          "bbox": [
+            0.6058,
+            0.6238,
+            0.2368,
+            0.1714
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "https://download.msi.com/archive/mnu_exe/vga/Installation-Guide-AMD.pdf"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2326,
+            0.395,
+            0.2368,
+            0.1745
+          ],
+          "bound": []
+        },
+        {
+          "type": 0,
+          "bbox": [
+            0.6031,
+            0.395,
+            0.2284,
+            0.1682
+          ],
+          "bound": []
+        },
+        {
+          "type": 0,
+          "bbox": [
+            0.2382,
+            0.6311,
+            0.2354,
+            0.1703
+          ],
+          "bound": []
+        },
+        {
+          "type": 0,
+          "bbox": [
+            0.6058,
+            0.6238,
+            0.2368,
+            0.1714
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q003.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3134,
+            0.3302,
+            0.2006,
+            0.1369
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3134,
+            0.3302,
+            0.2006,
+            0.1369
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q026.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4387,
+            0.4671,
+            0.234,
+            0.1776
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://www.a4tech.com"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4387,
+            0.4671,
+            0.234,
+            0.1776
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q017.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2312,
+            0.3187,
+            0.4791,
+            0.3574
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "https://medovye.com/"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2312,
+            0.3187,
+            0.4791,
+            0.3574
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q006.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.5152,
+            0.4986,
+            0.14,
+            0.1922
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "ne-moloko.ru"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.5152,
+            0.4986,
+            0.14,
+            0.1922
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q014.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3691,
+            0.4336,
+            0.2507,
+            0.2142
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.3691,
+            0.4336,
+            0.2507,
+            0.2142
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q021.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2368,
+            0.5131,
+            0.3008,
+            0.2194
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://www.aquaphor.ru/filters/standart.htm"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2368,
+            0.5131,
+            0.3008,
+            0.2194
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q049.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2278,
+            0.1797,
+            0.326,
+            0.4387
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2278,
+            0.1797,
+            0.326,
+            0.4387
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q010.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1309,
+            0.4169,
+            0.2869,
+            0.2153
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://www.ozon.ru/seller/max-reic-546996/products/?miniapp=seller_546996"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.1309,
+            0.4169,
+            0.2869,
+            0.2153
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q052.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2953,
+            0.4943,
+            0.1713,
+            0.1348
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "http://onelink.to/tcyncb"
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2953,
+            0.4943,
+            0.1713,
+            0.1348
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q012.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2549,
+            0.4075,
+            0.3148,
+            0.1964
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2549,
+            0.4075,
+            0.3148,
+            0.1964
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q047.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4596,
+            0.4002,
+            0.1309,
+            0.0982
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.4596,
+            0.4002,
+            0.1309,
+            0.0982
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "q034.jpg",
+      "result": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2465,
+            0.2163,
+            0.3579,
+            0.2226
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 0,
+          "bbox": [
+            0.2465,
+            0.2163,
+            0.3579,
+            0.2226
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d031.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.7019,
+            0.3396,
+            0.1351,
+            0.1066
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.7019,
+            0.3396,
+            0.1351,
+            0.1066
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d028.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.4582,
+            0.535,
+            0.11,
+            0.0784
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104603934000793215EYhJnYW1_tfC\u001d93mZMG"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.4582,
+            0.535,
+            0.11,
+            0.0784
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d024.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3468,
+            0.4765,
+            0.2577,
+            0.1923
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d01046070534737802155S1PH\u001d93k4uI"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3468,
+            0.4765,
+            0.2577,
+            0.1923
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d015.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3072,
+            0.2939,
+            0.1891,
+            0.2716
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3072,
+            0.2939,
+            0.1891,
+            0.2716
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d008.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3579,
+            0.4577,
+            0.2117,
+            0.1526
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "114230"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3579,
+            0.4577,
+            0.2117,
+            0.1526
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d041.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3078,
+            0.2727,
+            0.2493,
+            0.1745
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3078,
+            0.2727,
+            0.2493,
+            0.1745
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d016.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3677,
+            0.4713,
+            0.2368,
+            0.1808
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d010387001000173421VJLRIFXYOBSUO\u001d91EE06\u001d92rasKKWXzGot0oR2r6RJyqCklg/GayD09x532y7TFjFs="
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3677,
+            0.4713,
+            0.2368,
+            0.1808
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d023.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3524,
+            0.5507,
+            0.2396,
+            0.1672
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3524,
+            0.5507,
+            0.2396,
+            0.1672
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d009.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3747,
+            0.5078,
+            0.2089,
+            0.163
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104603619000087211549251745445\u001d91EE08\u001d92OyPiemjetfppGNJgVMCM03IFJ15y8fAZjT02SjU+Uio="
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3747,
+            0.5078,
+            0.2089,
+            0.163
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d030.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3552,
+            0.4765,
+            0.071,
+            0.0533
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3552,
+            0.4765,
+            0.071,
+            0.0533
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d025.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2006,
+            0.2497,
+            0.0919,
+            0.07
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        },
+        {
+          "type": 1,
+          "bbox": [
+            0.7326,
+            0.255,
+            0.1045,
+            0.069
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "0104603727231229215OYucK_(9WPqs\u001d936RnD"
+        },
+        {
+          "type": 1,
+          "bbox": [
+            0.2033,
+            0.6458,
+            0.1045,
+            0.0857
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104603934000755215\"oPuG's5DDfI\u001d93iCgd"
+        },
+        {
+          "type": 1,
+          "bbox": [
+            0.695,
+            0.6301,
+            0.0752,
+            0.0533
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2006,
+            0.2497,
+            0.0919,
+            0.07
+          ],
+          "bound": []
+        },
+        {
+          "type": 1,
+          "bbox": [
+            0.7326,
+            0.255,
+            0.1045,
+            0.069
+          ],
+          "bound": []
+        },
+        {
+          "type": 1,
+          "bbox": [
+            0.2033,
+            0.6458,
+            0.1045,
+            0.0857
+          ],
+          "bound": []
+        },
+        {
+          "type": 1,
+          "bbox": [
+            0.695,
+            0.6301,
+            0.0752,
+            0.0533
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d029.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3649,
+            0.4525,
+            0.1657,
+            0.1223
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104603934000755215\"oPuG's5DDfI\u001d93iCgd"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3649,
+            0.4525,
+            0.1657,
+            0.1223
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d027.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.4526,
+            0.3678,
+            0.1393,
+            0.1003
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "0104603727231229215OYucK_(9WPqs\u001d936RnD"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.4526,
+            0.3678,
+            0.1393,
+            0.1003
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d040.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3412,
+            0.3971,
+            0.1964,
+            0.1442
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104813445000773215ut2i=\u001d93NZvP"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3412,
+            0.3971,
+            0.1964,
+            0.1442
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d005.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3386,
+            0.3329,
+            0.1923,
+            0.2521
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104620017180036216219448880242\u001d91EE06\u001d927wQwb0VVcX2M+PrP6Z91VXAnXJlMlEfqwuEE8k4JfAs="
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3386,
+            0.3329,
+            0.1923,
+            0.2521
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d002.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3872,
+            0.3553,
+            0.2103,
+            0.1557
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104813445000551212m69vOA4\u001d93z29W"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3872,
+            0.3553,
+            0.2103,
+            0.1557
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d013.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3064,
+            0.4462,
+            0.2967,
+            0.2142
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104620017180036216219448880242\u001d91EE06\u001d927wQwb0VVcX2M+PrP6Z91VXAnXJlMlEfqwuEE8k4JfAs="
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3064,
+            0.4462,
+            0.2967,
+            0.2142
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d019.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3524,
+            0.5308,
+            0.0947,
+            0.0658
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "90630129"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3524,
+            0.5308,
+            0.0947,
+            0.0658
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d020.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2368,
+            0.4535,
+            0.2563,
+            0.186
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d01046070534737802155S1PH\u001d93k4uI"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2368,
+            0.4535,
+            0.2563,
+            0.186
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d039.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2883,
+            0.3406,
+            0.2103,
+            0.1484
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2883,
+            0.3406,
+            0.2103,
+            0.1484
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d001.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.468,
+            0.4431,
+            0.2103,
+            0.1536
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0103499320002127211006681452639"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.468,
+            0.4431,
+            0.2103,
+            0.1536
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d033.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3802,
+            0.5538,
+            0.2312,
+            0.1693
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3802,
+            0.5538,
+            0.2312,
+            0.1693
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d037.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3997,
+            0.3887,
+            0.2535,
+            0.1787
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3997,
+            0.3887,
+            0.2535,
+            0.1787
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d004.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3668,
+            0.1936,
+            0.1923,
+            0.2758
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3668,
+            0.1936,
+            0.1923,
+            0.2758
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d022.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.4462,
+            0.5432,
+            0.069,
+            0.0933
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "H951K9J6C01139"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.4462,
+            0.5432,
+            0.069,
+            0.0933
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d011.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2493,
+            0.442,
+            0.2632,
+            0.2006
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104650068810026211622134978232\u001d91EE06\u001d92zPOxsUxZh1feBaBhGVNZSWe3YdbJvZLt4GbLK1Us+58="
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2493,
+            0.442,
+            0.2632,
+            0.2006
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d035.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.5097,
+            0.5726,
+            0.1058,
+            0.0711
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "263442T2T1008618095X001002"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.5097,
+            0.5726,
+            0.1058,
+            0.0711
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d018.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2521,
+            0.4284,
+            0.3189,
+            0.2372
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2521,
+            0.4284,
+            0.3189,
+            0.2372
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d036.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3635,
+            0.5319,
+            0.2451,
+            0.1839
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104813445001978215?_2OS\u001d93IK9o"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3635,
+            0.5319,
+            0.2451,
+            0.1839
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d007.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2953,
+            0.2884,
+            0.4415,
+            0.3396
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2953,
+            0.2884,
+            0.4415,
+            0.3396
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d038.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3412,
+            0.4943,
+            0.2869,
+            0.1923
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104813445003255212mhgv5rF\u001d93:,NF"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3412,
+            0.4943,
+            0.2869,
+            0.1923
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d032.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3357,
+            0.3929,
+            0.2702,
+            0.2121
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104813445001978215AMukr\u001d93QVQ3"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3357,
+            0.3929,
+            0.2702,
+            0.2121
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d003.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.4081,
+            0.4211,
+            0.1978,
+            0.1505
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.4081,
+            0.4211,
+            0.1978,
+            0.1505
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d026.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3426,
+            0.3323,
+            0.1476,
+            0.0951
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3426,
+            0.3323,
+            0.1476,
+            0.0951
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d017.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3733,
+            0.4765,
+            0.2451,
+            0.187
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3733,
+            0.4765,
+            0.2451,
+            0.187
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d006.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2284,
+            0.4242,
+            0.2396,
+            0.1693
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d010366558500392021R37D77KEC4PWX\u001d91EE06\u001d92tNBXzQc0wZ5WvZXZe5ciJiPPL+9vJIJN1p691yGctKY="
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2284,
+            0.4242,
+            0.2396,
+            0.1693
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d014.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2953,
+            0.5277,
+            0.2479,
+            0.1944
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d010366558500239821NK5TBYNS9Y1ED\u001d91EE06\u001d92HGj8o/OwFgPnN1Pneqjha/AedL2vE9OHoq7lBdGkRY0="
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2953,
+            0.5277,
+            0.2479,
+            0.1944
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d021.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.4525,
+            0.4749,
+            0.1682,
+            0.234
+          ],
+          "bound": [],
+          "decoded": false,
+          "decoded_info": ""
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.4525,
+            0.4749,
+            0.1682,
+            0.234
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d010.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3412,
+            0.4984,
+            0.2563,
+            0.1975
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d010366558500392021R37D77KEC4PWX\u001d91EE06\u001d92tNBXzQc0wZ5WvZXZe5ciJiPPL+9vJIJN1p691yGctKY="
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.3412,
+            0.4984,
+            0.2563,
+            0.1975
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d012.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2563,
+            0.4535,
+            0.2883,
+            0.2184
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "\u001d0104607100621850210700008774977\u001d91EE06\u001d92xNOzB+WNmBIA0Z2KocKWxLfGx6io1bu46yqLcCO4wLc="
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.2563,
+            0.4535,
+            0.2883,
+            0.2184
+          ],
+          "bound": []
+        }
+      ]
+    },
+    {
+      "image": "d034.jpg",
+      "result": [
+        {
+          "type": 1,
+          "bbox": [
+            0.507,
+            0.6217,
+            0.1128,
+            0.0825
+          ],
+          "bound": [],
+          "decoded": true,
+          "decoded_info": "277357T2T1009170496X001002"
+        }
+      ],
+      "markup": [
+        {
+          "type": 1,
+          "bbox": [
+            0.507,
+            0.6217,
+            0.1128,
+            0.0825
+          ],
+          "bound": []
+        }
+      ]
+    }
+  ]
+}

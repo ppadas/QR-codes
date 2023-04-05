@@ -1,0 +1,388 @@
+{
+  "objects": [
+    {
+      "image": "q045.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q055.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q031.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q028.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q024.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q050.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q015.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q008.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q041.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q016.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q023.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q051.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q009.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q030.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q025.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q029.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q027.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q040.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q054.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q044.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q005.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q002.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q053.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q046.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q043.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q013.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q019.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q020.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q039.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q001.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q033.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q037.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q004.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q048.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q042.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q022.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q011.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q035.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q018.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q036.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q007.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q038.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q032.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q003.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q026.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q017.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q006.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q014.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q021.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q049.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q010.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q052.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "q012.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q047.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "q034.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d031.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d028.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d024.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d015.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d008.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d041.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d016.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d023.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d009.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d030.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d025.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d029.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d027.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d040.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d005.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d002.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d013.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d019.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d020.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d039.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d001.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d033.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d037.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d004.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d022.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d011.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d035.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d018.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d036.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d007.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d038.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d032.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d003.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d026.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d017.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d006.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d014.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d021.jpg",
+      "decoded": "FU"
+    },
+    {
+      "image": "d010.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d012.jpg",
+      "decoded": "TP"
+    },
+    {
+      "image": "d034.jpg",
+      "decoded": "TP"
+    }
+  ]
+}
