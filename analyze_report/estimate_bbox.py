@@ -1,21 +1,134 @@
+import copy
+
+threshold_in_ration = 0.05
+threshold_out_ration = 0.12
 
 def bbox_stat(object_info):
     '''
-    Логика: 
-    Статистика по элементам markup и result
-    По элементам markup
-    TP: нашлось нормально 
-        Type: соответсвует или тому, что в markup
-        Decoded: расшифрован ли в итоге
-    FN: не нашлось нормально, но как-то пересекается с markup
-        Type: соответсвует или тому, что в markup
-        Decoded: расшифрован ли в итоге
-    FN_at_all: элемент markup вообще не нашелся
-
-    По элементам result, которые никак не смэтчили с markup:
-    FP: нашлось, но не относится к кодам
-
-    Аргументы:
-    object_info: словарь, который содержит ключи "image", "result", "markup"
+    Документацию нужно смотреть в документе
+    https://docs.google.com/document/d/1u4_jnB_Wm2VkAfSPwoEg0FPKNoaCh15_/edit#
     '''
-    retu
+
+    if "image" not in object_info or \
+       "result" not in object_info or \
+       "markup" not in object_info:
+        raise Exception("Report object error")
+
+    stat_info = []
+    indexed_markup = dict()
+    indexed_result = dict()
+    i = 0
+    for markup_value in object_info["markup"]:
+        indexed_markup[i] = markup_value
+        i += 1
+    
+    i = 0
+    for result_value in object_info["result"]:
+        indexed_result[i] = result_value
+        i += 1
+
+    match_values = []
+    no_match_markup = []
+    no_match_result = []
+
+    # match
+    # что если один result смэтчился с неколькими
+    for markup_key, markup_value in indexed_markup.items():
+        current_match_result = -1
+        max_intersection = 0
+        bbox_markup = markup_value["bbox"]
+
+        for result_key, result_value in indexed_result.items():
+            bbox_result = result_value["bbox"]
+            current_intersection = compute_intersection(bbox_result, bbox_markup)
+            if current_intersection > max_intersection:
+                max_intersection = current_intersection
+                current_match_result = result_key
+        
+        if object_info["image"] == "qr_many/00003.jpg":
+            print(current_match_result, max_intersection)
+        
+        if current_match_result != -1:
+            match_values.append([markup_key, current_match_result])
+        else:
+            no_match_markup.append(markup_key)
+    
+    for result_key, result_value in indexed_result.items():
+        matched = False
+        for matched_pair in match_values:
+            if result_key == matched_pair[1]:
+                matched = True
+                break
+        if not matched:
+            no_match_result.append(result_key)
+    
+    process_matched_values(match_values, indexed_markup, indexed_result, stat_info)
+    process_true_FP_values(no_match_markup, indexed_markup, stat_info)
+    process_true_FN_values(no_match_result, indexed_result, stat_info)
+    return stat_info
+
+
+
+def compute_max_in_out_offset(box_result, box_markup):
+    left_offset = box_result[0] - box_markup[0]
+    right_offset = box_result[0] + box_result[2] - (box_markup[0] + box_markup[2])
+    top_offset = box_result[1] - box_markup[1]
+    bottom_offset = box_result[1] + box_result[3] - (box_markup[1] + box_markup[3])
+    max_in = max(0, left_offset, -right_offset, top_offset, -bottom_offset)
+    max_out = max(0, -left_offset, right_offset, -top_offset, bottom_offset)
+    return max_in, max_out
+
+
+def compute_intersection(box_1, box_2):
+    x_left = max(box_1[0], box_2[0])
+    x_right = min(box_1[0] + box_1[2], box_2[0] + box_2[2])
+    y_top = max(box_1[1], box_2[1])
+    y_bottom = min(box_1[1] + box_1[3], box_2[1] + box_2[3])
+
+    if x_left > x_right or y_top > y_bottom:
+        return 0
+    else:
+        return (x_right - x_left) * (y_bottom - y_top)
+
+def compute_union(box_1, box_2):
+    intersection = compute_intersection(box_1, box_2)
+    return box_1[2] * box_1[3] + box_2[2] * box_2[3] - intersection
+
+def process_matched_values(match_values, indexed_markup, indexed_result, stat_info):
+    for match_value in match_values:
+        current_stat = dict()
+        current_stat["error_type"] = "TP"
+        markup = indexed_markup[match_value[0]]
+        result = indexed_result[match_value[1]]
+        max_in, max_out = compute_max_in_out_offset(result["bbox"], markup["bbox"])
+        intersection = compute_intersection(result["bbox"], markup["bbox"])
+        union = compute_union(result["bbox"], markup["bbox"])
+        current_stat["markup_type"] = markup["type"]
+        current_stat["max_in"] = max_in
+        current_stat["max_out"] = max_out
+        current_stat["intersection_area"] = intersection
+        current_stat["union_area"] = union
+        if markup["type"] != result["type"] or \
+          current_stat["max_in"] > min(markup["bbox"][2], markup["bbox"][3]) * threshold_in_ration or \
+          current_stat["max_out"] > min(markup["bbox"][2], markup["bbox"][3]) * threshold_out_ration:
+            current_stat["error_type"] = "FP"
+            current_stat["found_type"] = result["type"]
+            current_stat["bbox_markup_area"] = markup["bbox"][2] * markup["bbox"][3]
+            current_stat["bbox_markup_area"] = result["bbox"][2] * result["bbox"][3]
+        stat_info.append(current_stat)
+
+def process_true_FN_values(no_match_markup, indexed_markup, stat_info):
+    for value in no_match_markup:
+        markup = indexed_markup[value]
+        current_stat = dict()
+        current_stat["markup_type"] = markup["type"]
+        current_stat["bbox_markup_area"] = markup["bbox"][2] * markup["bbox"][3]
+        stat_info.append(current_stat)
+    
+def process_true_FP_values(no_match_result, indexed_result, stat_info):
+    for value in no_match_result:
+        result = indexed_result[value]
+        current_stat = dict()
+        current_stat["found_type"] = result["type"]
+        current_stat["bbox_found_area"] = result["bbox"][2] * result["bbox"][3]
+        stat_info.append(current_stat)

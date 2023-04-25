@@ -1,6 +1,7 @@
 #to do статистика по конкретному типу
 
 from estimate_encoding import encoding_stat
+from estimate_bbox import bbox_stat
 
 import argparse
 import json
@@ -25,7 +26,8 @@ if __name__ == "__main__":
     for object_info in data["objects"]:
         current_object_stat = dict()
         current_object_stat["image"] = object_info["image"]
-        current_object_stat["decoded"] = encoding_stat(object_info)
+        #current_object_stat["decoded"] = encoding_stat(object_info)
+        current_object_stat["bbox_stat"] = bbox_stat(object_info)
 
         common_stat["objects"].append(current_object_stat)
 
