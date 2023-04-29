@@ -45,9 +45,6 @@ def bbox_stat(object_info):
                 max_intersection = current_intersection
                 current_match_result = result_key
         
-        if object_info["image"] == "qr_many/00003.jpg":
-            print(current_match_result, max_intersection)
-        
         if current_match_result != -1:
             match_values.append([markup_key, current_match_result])
         else:
