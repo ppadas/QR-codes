@@ -1,7 +1,7 @@
 import copy
 
-threshold_in_ration = 0.05
-threshold_out_ration = 0.12
+threshold_in_ration = 0.01
+threshold_out_ration = 0.1
 
 def bbox_stat(object_info):
     '''
@@ -60,8 +60,8 @@ def bbox_stat(object_info):
             no_match_result.append(result_key)
     
     process_matched_values(match_values, indexed_markup, indexed_result, stat_info)
-    process_true_FP_values(no_match_markup, indexed_markup, stat_info)
-    process_true_FN_values(no_match_result, indexed_result, stat_info)
+    process_true_FN_values(no_match_markup, indexed_markup, stat_info)
+    process_true_FP_values(no_match_result, indexed_result, stat_info)
     return stat_info
 
 
@@ -71,8 +71,10 @@ def compute_max_in_out_offset(box_result, box_markup):
     right_offset = box_result[0] + box_result[2] - (box_markup[0] + box_markup[2])
     top_offset = box_result[1] - box_markup[1]
     bottom_offset = box_result[1] + box_result[3] - (box_markup[1] + box_markup[3])
-    max_in = max(0, left_offset, -right_offset, top_offset, -bottom_offset)
-    max_out = max(0, -left_offset, right_offset, -top_offset, bottom_offset)
+    max_in = max(0, left_offset, -right_offset, top_offset, -bottom_offset) / \
+        min(box_markup[2], box_markup[3])
+    max_out = max(0, -left_offset, right_offset, -top_offset, bottom_offset) / \
+        min(box_markup[2], box_markup[3])
     return max_in, max_out
 
 
@@ -93,6 +95,11 @@ def compute_union(box_1, box_2):
 
 def process_matched_values(match_values, indexed_markup, indexed_result, stat_info):
     for match_value in match_values:
+        if indexed_markup[match_value[0]]["type"] == 2: #atypical
+            current_stat = dict()
+            current_stat["error_type"] = "Not consider"
+            stat_info.append(current_stat)
+            return
         current_stat = dict()
         current_stat["error_type"] = "TP"
         markup = indexed_markup[match_value[0]]
@@ -106,8 +113,8 @@ def process_matched_values(match_values, indexed_markup, indexed_result, stat_in
         current_stat["intersection_area"] = intersection
         current_stat["union_area"] = union
         if markup["type"] != result["type"] or \
-          current_stat["max_in"] > min(markup["bbox"][2], markup["bbox"][3]) * threshold_in_ration or \
-          current_stat["max_out"] > min(markup["bbox"][2], markup["bbox"][3]) * threshold_out_ration:
+          current_stat["max_in"] > threshold_in_ration or \
+          current_stat["max_out"] > threshold_out_ration:
             current_stat["error_type"] = "FP"
             current_stat["found_type"] = result["type"]
             current_stat["bbox_markup_area"] = markup["bbox"][2] * markup["bbox"][3]
@@ -117,7 +124,14 @@ def process_matched_values(match_values, indexed_markup, indexed_result, stat_in
 def process_true_FN_values(no_match_markup, indexed_markup, stat_info):
     for value in no_match_markup:
         markup = indexed_markup[value]
+        if markup["type"] == 2:
+            current_stat = dict()
+            current_stat["error_type"] = "Not consider"
+            stat_info.append(current_stat)
+            return
+        current_stat["error_type"] = "FN"
         current_stat = dict()
+        current_stat["error_type"] = "FN"
         current_stat["markup_type"] = markup["type"]
         current_stat["bbox_markup_area"] = markup["bbox"][2] * markup["bbox"][3]
         stat_info.append(current_stat)
@@ -126,6 +140,7 @@ def process_true_FP_values(no_match_result, indexed_result, stat_info):
     for value in no_match_result:
         result = indexed_result[value]
         current_stat = dict()
+        current_stat["error_type"] = "FP"
         current_stat["found_type"] = result["type"]
         current_stat["bbox_found_area"] = result["bbox"][2] * result["bbox"][3]
         stat_info.append(current_stat)
