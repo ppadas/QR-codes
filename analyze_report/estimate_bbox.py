@@ -129,7 +129,6 @@ def process_true_FN_values(no_match_markup, indexed_markup, stat_info):
             current_stat["error_type"] = "Not consider"
             stat_info.append(current_stat)
             return
-        current_stat["error_type"] = "FN"
         current_stat = dict()
         current_stat["error_type"] = "FN"
         current_stat["markup_type"] = markup["type"]
