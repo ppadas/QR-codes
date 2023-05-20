@@ -36,7 +36,7 @@ if __name__ == "__main__":
         subprocess.run(['mkdir', folder_name])
 
         subprocess.run(['python3', 'save_per_file.py', '-d', dataset_path,
-            '-f', file_name, '-s', folder_name, '-r', report_path])
+            '-f', file_name, '-o', folder_name, '-s', stat_path])
         
 
 

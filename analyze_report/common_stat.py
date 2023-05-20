@@ -52,6 +52,8 @@ if __name__ == "__main__":
 
     with open(result_path, "r") as f:
         data = json.load(f)
+    
+    common_stat["types_list"] = data["types_list"]
 
     for object_info in data["objects"]:
         current_object_stat = dict()

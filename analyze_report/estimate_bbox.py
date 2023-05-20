@@ -95,15 +95,17 @@ def compute_union(box_1, box_2):
 
 def process_matched_values(match_values, indexed_markup, indexed_result, stat_info):
     for match_value in match_values:
+        markup = indexed_markup[match_value[0]]
+        result = indexed_result[match_value[1]]
+        current_stat = dict()
+        current_stat["markup_bbox"] = markup["bbox"]
+        current_stat["result_bbox"] = result["bbox"]
         if indexed_markup[match_value[0]]["type"] == 2: #atypical
-            current_stat = dict()
+            current_stat["found_type"] = result["type"]
             current_stat["error_type"] = "Not consider"
             stat_info.append(current_stat)
             return
-        current_stat = dict()
         current_stat["error_type"] = "TP"
-        markup = indexed_markup[match_value[0]]
-        result = indexed_result[match_value[1]]
         max_in, max_out = compute_max_in_out_offset(result["bbox"], markup["bbox"])
         intersection = compute_intersection(result["bbox"], markup["bbox"])
         union = compute_union(result["bbox"], markup["bbox"])
@@ -124,12 +126,12 @@ def process_matched_values(match_values, indexed_markup, indexed_result, stat_in
 def process_true_FN_values(no_match_markup, indexed_markup, stat_info):
     for value in no_match_markup:
         markup = indexed_markup[value]
+        current_stat = dict()
+        current_stat["markup_bbox"] = markup["bbox"]
         if markup["type"] == 2:
-            current_stat = dict()
             current_stat["error_type"] = "Not consider"
             stat_info.append(current_stat)
             return
-        current_stat = dict()
         current_stat["error_type"] = "FN"
         current_stat["markup_type"] = markup["type"]
         current_stat["bbox_markup_area"] = markup["bbox"][2] * markup["bbox"][3]
@@ -139,6 +141,7 @@ def process_true_FP_values(no_match_result, indexed_result, stat_info):
     for value in no_match_result:
         result = indexed_result[value]
         current_stat = dict()
+        current_stat["result_bbox"] = result["bbox"]
         current_stat["error_type"] = "FP"
         current_stat["found_type"] = result["type"]
         current_stat["bbox_found_area"] = result["bbox"][2] * result["bbox"][3]
